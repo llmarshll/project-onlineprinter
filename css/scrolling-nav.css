@@ -1,0 +1,180 @@
+body {
+	
+    width: 100%;
+    height: 100%;
+}
+body .cart{
+	margin-left:685px;
+	cursor:pointer;
+}
+body footer {
+	background-color: orange;
+	color: white;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+	background-color: white;
+	opacity: 0.9;
+        padding: 11px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+	
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.intro-section {
+
+	 font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../images/bgintro.jpg') no-repeat center center fixed;
+     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+	width:1365px;
+	
+}
+.intro-section .btn{
+	margin-top: 490px;
+	font-family:"Tahoma";
+	color: white;
+	background-color: orange;
+	width: 150px;
+}
+
+.about-section {
+	height: 300%;
+	margin-top:50px;
+    text-align: center;
+	font-size: 26.5px;
+	 background: url('../images/aboutuss.jpg') no-repeat center center fixed;
+	
+	
+}
+.about-section .polaroid {
+  font-family: "Seoge";
+  width: 30%;
+  background-color: orange;
+  float:left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left:30px;
+   opacity: 1;
+   color:orange;
+}
+.about-section h1{
+	color:Black;
+	text-align:justify;
+	font-family: "Tahoma";
+}
+.about-section center{
+	color:orange;
+	padding-top: 5px;
+	font-size:40px;
+	font-family:"Seoge";
+}
+.about-section p {
+	color:dimgray;
+	background-color:white;
+	border:solid 3px;
+	border-color:orange;
+	opacity:0.9;
+	font-size:20px;
+	padding: 10px 10px 10px 10px;
+}
+.about-section .polaroid {
+  font-family: "Arial";
+  width: 30%;
+  background-color: orange;
+  float:left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   opacity: 0.9;	
+   border-top:solid 3px;
+   border-top-color:orange;
+   cursor: pointer;
+}
+.about-section .container2 p {
+  cursor: pointer;
+  color:white;
+  background-color:orange;
+ 
+}
+.about-section .container2 .position{
+  cursor: pointer;
+  color:dimgray;
+  font-family: "Seoge";
+  background-color:white;
+ 
+}
+.services-section {
+    height: 110%;
+    padding-top: 50px;
+	 background: url('../images/bgg.jpg') no-repeat center center fixed;
+
+}
+.services-section .polaroid {
+  width: 40%;
+  font-family: "tahoma";
+  background-color: lightgreen;
+  float:left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left:100px;
+  text-align: justify;
+}
+.services-section h1{
+	font-family: "Seoge";
+	text-align: center;
+	color: Yellow;
+}
+.services-section .container {
+  text-align: left-side;
+  padding: 10px 20px;
+}
+.services-section p strong br{
+	text-align:justify;
+}
+.contact-section {
+    height: 500%;
+    padding-top: 50px;
+	  background: url('../images/bgblack.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.contact-section .polaroid {
+  font-family: "Seoge";
+  width: 30%;
+  background-color: orange;
+  float:left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left:30px;
+   opacity: 0.9;
+   color:white;
+}
+.contact-section .container {
+  cursor: pointer;
+  text-align: left-side;
+  padding: 10px 20px;
+  padding-left:55px;
+ 
+}
+.contact-section  h2{
+	color: white;
+	font-family: "Tahoma";
+}
+.contact-section button{
+	margin-left:240px;
+}
